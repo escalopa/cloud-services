@@ -48,7 +48,8 @@ def upload_file(file_name, bucket, object_name=None):
 def download_file(bucket_name, obj_name, file_name):
     s3.download_file(bucket_name, obj_name, file_name)
 
-# print_all_buckets()
+
+print_all_buckets()
 # create_bucket("bnb-bucket")
 # print_all_buckets()
 # upload_file("file.txt", "eth-bucket", "file-eth.txt")
